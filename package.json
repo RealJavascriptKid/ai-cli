@@ -1,0 +1,23 @@
+{
+  "name": "ai-cli",
+  "version": "1.0.0",
+  "description": "AI-powered interactive CLI",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "aicli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.10",
+    "openai": "^4.24.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
